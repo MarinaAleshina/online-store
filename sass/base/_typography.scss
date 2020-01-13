@@ -1,0 +1,89 @@
+// Typography
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+.h {
+	font-family: $headings-font-family;
+	font-weight: 700;
+	margin: 0 0 0.5em;
+	color: $headings-color;
+}
+
+h1, .h1 {
+	font-size: $h1-font-size;
+}
+
+h2, .h2 {
+	font-size: $h2-font-size;
+}
+
+h3, .h3 {
+	font-size: $h3-font-size;
+}
+
+h4, .h4 {
+	font-size: $h4-font-size;
+}
+
+h5, .h5 {
+	font-size: $h5-font-size;
+}
+
+h6, .h6 {
+	font-size: $h6-font-size;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+a {
+	@include animate (opacity visibility color background-color);
+
+	text-decoration: none;
+
+	color: $base-link-color;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
+
+
+body {
+	color: $base-text-color;
+	background: $base-background-color;
+	font: #{$font-size-base}/#{$line-height-base} $base-font-family;
+	min-width: $base-min-width;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+section {
+	padding: 25px 0;
+
+	@include media ('>=tablet') {
+	    padding: 50px 0;
+
+	}
+
+	@include media ('>=desktop') {
+	    padding: 100px 0;
+	}
+}
+
+// adaptive images
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+
+// google map fix
+.gm-style img {max-width: none}
+
+

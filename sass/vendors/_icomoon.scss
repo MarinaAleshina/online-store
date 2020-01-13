@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?b5sv0m');
+  src:  url('../fonts/icomoon.eot?b5sv0m#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?b5sv0m') format('truetype'),
+    url('../fonts/icomoon.woff?b5sv0m') format('woff'),
+    url('../fonts/icomoon.svg?b5sv0m#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-suitcase:before {
+  content: "\e917";
+}
+.icon-group:before {
+  content: "\e918";
+}
+.icon-users:before {
+  content: "\e918";
+}
+.icon-comments-o:before {
+  content: "\e919";
+}
+.icon-asterisk:before {
+  content: "\e913";
+}
+.icon-th-list:before {
+  content: "\e912";
+}
+.icon-paper-plane:before {
+  content: "\e910";
+}
+.icon-pinterest-square:before {
+  content: "\e902";
+}
+.icon-youtube-square:before {
+  content: "\e90a";
+}
+.icon-twitter-square:before {
+  content: "\e90d";
+}
+.icon-edit:before {
+  content: "\e914";
+}
+.icon-pencil-square-o:before {
+  content: "\e914";
+}
+.icon-user1:before {
+  content: "\e916";
+}
+.icon-lock:before {
+  content: "\e915";
+}
+.icon-attention:before {
+  content: "\e901";
+}
+.icon-file:before {
+  content: "\e903";
+}
+.icon-left-arrow:before {
+  content: "\e904";
+}
+.icon-message:before {
+  content: "\e905";
+}
+.icon-notification:before {
+  content: "\e906";
+}
+.icon-play-button:before {
+  content: "\e907";
+}
+.icon-prev-next:before {
+  content: "\e908";
+}
+.icon-ring:before {
+  content: "\e909";
+}
+.icon-sort-by-attributes-02:before {
+  content: "\e90b";
+}
+.icon-sort-by-attributes:before {
+  content: "\e90c";
+}
+.icon-visible-open:before {
+  content: "\e90e";
+}
+.icon-shopping-cart:before {
+  content: "\e90f";
+}
+.icon-grid:before {
+  content: "\e911";
+}
+.icon-user:before {
+  content: "\e900";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}

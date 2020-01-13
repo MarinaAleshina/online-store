@@ -1,0 +1,265 @@
+#footer {
+    background-color: $dark-blue;
+
+    .social-link-list {
+        margin: 0 0 40px;
+    }
+}
+
+.footer-top {
+    padding: 110px 0 95px;
+    border-bottom: 1px solid #2f3b41;
+
+    @include media ('<=desktop') {
+        padding: 50px 25px 25px;
+     }
+
+     @include media ('<=phone')  {
+        padding: 25px;
+     }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 40px;
+
+        @include media ('<=widescreen') {
+            margin: 0 -10px;
+         }
+    }
+
+    .col {
+        width: 25%;
+        padding: 0 40px;
+
+        @include media ('<=widescreen') {
+           padding: 0 10px;
+        }
+
+        @include media ('<=desktop') {
+            width: 50%;
+            margin: 0 0 30px;
+         }
+
+         @include media ('<=phone') {
+            width: 100%;
+
+            &:last-child {
+                margin: 0;
+            }
+         }
+    }
+
+    h3 {
+        color: $white;
+        font-size: 22px;
+        font-weight: 400;
+        position: relative;
+        padding: 0 0 25px;
+        margin: 0 0 30px;
+
+        @include media ('<=phone')  {
+            padding: 0 0 5px;
+            margin: 0 0 15px;
+         }
+
+        &:after {
+            position: absolute;
+            content: ' ';
+            bottom: 0;
+            left: 0;
+            background-color: $green;
+            width: 55px;
+            height: 4px;
+        }
+    }
+
+    .contact-list {
+        margin: 30px 0 0;
+
+        @include media ('<=phone')  {
+            margin: 15px 0 0;
+         }
+    }
+
+}
+
+
+
+.contact-list {
+    @extend %listreset;
+
+    li {
+        position: relative;
+        padding: 0 0 0 30px;
+        font-size: 14px;
+        color: $white;
+        margin: 0 0 20px;
+
+        @include media ('<=phone')  {
+            margin: 0 0 10px;
+         }
+
+        &:last-child {
+            margin: 0;
+        }
+
+        i {
+            position: absolute;
+            top: 5px;
+            left: 0;
+            color: $green;
+            font-size: 16px;
+        }
+
+        a {
+            color: $white; 
+        }
+
+        address {
+            font-style: normal;
+        }
+    }
+}
+
+.list-footer-link {
+    @extend %listreset;
+
+    li {
+        position: relative;
+        padding: 0 0 0 22px;
+
+        &:before {
+            content: "\e904";
+            font-family: 'icomoon';
+            position: absolute;
+            top: 5px;
+            left: 0;
+            color: $green;
+            transform: rotate(180deg);
+            font-size: 10px;
+        }
+
+        a {
+            color: #b7c3c7;
+
+            &:hover {
+                color: darken(#b7c3c7, 20%) 
+            }
+        }
+    }
+}
+
+.social-link-list {
+    @extend %listreset;
+    
+    display: flex;
+    align-items: center;
+
+    li {
+        margin: 0 6px 0 0;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    a {
+        font-size: 32px;
+        display: block;
+        transition: all 0.2s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .icon-facebook2, .icon-linkedin {
+        font-size: 29px;
+    }
+
+    .icon-facebook2 {
+        color:  #3b5998;
+    }
+
+    .icon-twitter-square {
+        color: #55acee;
+    }
+
+    .icon-youtube-square {
+        color: #e52d27;
+    }
+
+    .icon-pinterest-square {
+        color: $white;
+    }
+
+    .icon-linkedin {
+        color: #1b5493;
+    }
+}
+
+.newsletter-form-title {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+    color: $white;
+}
+
+.footer-newsletter-form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #1c2529;
+    border-bottom: 0;
+    max-width: 300px;
+
+    input[type='email'] {
+        width: 100%;
+        height: 38px;
+        outline: none;
+        background-color: #2f3c43;
+        border: 0;
+    }
+
+    input[type='submit'] {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        font-size: 0;
+        background-color: $green;
+        outline: none;
+    }
+
+    .footer-newsletter-form__submit {
+        position: relative;
+        width: 44px;
+        height: 38px;
+
+        &:before {
+            position: absolute;
+            content: "\e910";
+            font-family: 'icomoon';
+            font-size: 15px;
+            color: $white;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            pointer-events: none;
+        }
+    }
+
+}
+
+.footer-bottom__content {
+    text-align: center;
+    color: #919699;
+    padding: 20px 15px 30px;
+    
+    @include media ('<=phone')  {
+        padding: 15px;
+        font-size: 13px;
+     }
+
+}
+

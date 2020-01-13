@@ -1,0 +1,58 @@
+// Colors
+// Color calculator - http://razorjam.github.io/sasscolourfunctioncalculator/
+// Color names - http://name-of-color.com/
+
+$white: #ffffff;
+$green: #8bc34a;
+$red: #e74c3c;
+$dark-blue: #263238;
+$blue: #546e7a;
+$light-gray: #f4f6f5;
+$gray: #b0bec5;
+
+$base-font-sans-serif: 'Roboto', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+
+
+// This is the default html and body font-size for the base rem value.
+$rem-base: 15px;
+ 
+// Body
+$base-text-color: $gray;
+$base-background-color: $white;
+$font-size-base: 15px;
+$line-height-base: 1.625;
+$base-font-family: $base-font-sans-serif !default;
+
+$vertical-rhythm: ($line-height-base * 1em); 
+
+$base-min-width: 320px;
+
+// Liks
+$base-link-color: $green;
+
+// Buttons 
+$btn-color: $white;
+$btn-background: $green;
+$btn-padding: 4px 10px;
+$btn-font-size: 16px;
+
+// Forms
+$form-element-padding: $btn-padding !default;
+$form-element-border-color: $white;
+$form-element-focus-border-color: $white;
+$placeholder-color: #707070;
+$placeholder-font-size: 15px;
+
+// Headers
+$h1-font-size: 48px;
+$h2-font-size: 36px;
+$h3-font-size: 22px;
+$h4-font-size: 18px;
+$h5-font-size: 14px;
+$h6-font-size: 12px;
+
+$headings-font-family: inherit !default;
+$headings-color: $dark-blue;
+
+
+$animation-speed: 0.3s;

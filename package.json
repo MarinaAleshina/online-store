@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-sass": "2.1.0",
+    "grunt-spritesmith": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*"
+  }
+}

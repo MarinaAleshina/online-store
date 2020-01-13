@@ -1,0 +1,48 @@
+.bread-crumbs {
+    @extend %listreset;
+
+    font-size: 0;
+    margin: 0 0 30px;
+
+    li {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 15px;
+        padding: 0 10px 0 0;
+        margin: 0 6px 0 0;
+
+    
+        &:after {
+            position: absolute;
+            content: " ";
+            width: 4px;
+            height: 1px;
+            background-color: $green;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &:last-child {
+            a {
+                color: $dark-blue;
+            }
+
+            &:after  {
+                display: none;
+            }
+        }
+
+        &:hover {
+            a {
+                color: $dark-blue; 
+            }
+        }
+    }
+
+    a {
+        color: #99acb5;
+
+    }
+}

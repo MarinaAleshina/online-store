@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upload-product</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/main.min.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <div class="header-top">
+                <div class="container">
+                    <a class="logo" href="#"><img src="images/logo.png" alt="foxtar-market-place"></a>
+                    <div class="header-top__content">
+                        <a class="need-help-link" href="tel:61383766284"><span>Need help?</span> Talk to an expert: +61 3 8376 6284</a>
+                        <ul class="notification-list">
+                            <li><a title="4" href="#" class="icon-notification"></a></li>
+                            <li><a title="6" href="#" class="icon-message"></a></li>
+                            <li><a title="8" href="#" class="icon-shopping-cart"></a></li>
+                        </ul>
+                        <div class="header-top__button">
+                            <button class="btn btn-login">Login</button>
+                            <button class="btn btn-register">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <nav class="main-nav">
+                        <a href="#" class="nav-opener"><span></span></a>
+                        <div class="nav-drop">
+                            <ul id="nav">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">WordPress </a></li>
+                                <li><a href="#">Joomla</a></li>
+                                <li><a href="#"> PSD</a></li>
+                                <li><a href="#">Plugins</a></li>
+                                <li><a href="#">Components</a></li>
+                                <li><a href="#">Pages</a></li>
+                                <li><a href="#"> Contact</a></li>
+                                <li><a href="#">Help</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main id="main" class="upload-product">
+            <section class="upload-product-section">
+                <div class="container">
+                    <ul class="bread-crumbs">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Upload Product</a></li>
+                    </ul>
+                    <div class="upload-product-wrapper">
+                        <form action="#" class="upload-product-form">
+                            <div class="upload-product-form-part-firts">
+                                <h2>Upload Your item</h2>
+                                <div class="part-inner">
+                                    <div class="input-wrapper">
+                                        <label for=""><span>Select Categories</span></label>
+                                            <!-- custom-select -->
+                                            <select class="custom-select">
+                                                <option value="hide"> Select </option>
+                                                <option value="1" rel="icon-temperature">1</option>
+                                                <option value="2">hello</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                            </select>
+                                       </div>
+                                       <div class="input-wrapper">
+                                          <label for="product-name"><span>Product Name</span></label>
+                                           <input type="text" placeholder="Enter your product name here ..." id="product-name">
+                                       </div>
+                                       <div class="input-wrapper product-description">
+                                            <label for="product-description"><span>Product Description</span></label>
+                                            <textarea name="" cols="30" rows="10" placeholder="<h1> Type your text  here </h1/>" id="product-description"></textarea>
+                                        </div>
+                                        <div class="input-wrapper">
+                                            <span class="fake-label"><span>Upload Main File</span></span>
+                                            <div class="fake-input">
+                                                <label for="upload-file-main" class="upload-file">Choose File</label>
+                                                <input type="file" id="upload-file-main" placeholder="Enter your product name here...">
+                                                <span class="file-choosen">No File Choosen</span>
+                                            </div>
+                                        </div>
+                                        <div class="input-wrapper">
+                                            <span class="fake-label"><span>Upload Screenshots</span></span>
+                                            <div class="fake-input">
+                                                <label for="upload-file-screenshots" class="upload-file">Choose File</label>
+                                                <input type="file" id="upload-file-screenshots">
+                                                <span class="file-choosen">No File Choosen</span>
+                                            </div>
+                                        </div>
+                                        <div class="input-wrapper">
+                                            <label for=""><span>Select Categories</span></label>
+                                                <!-- custom-select -->
+                                                <select class="custom-select">
+                                                    <option value="hide"> Select </option>
+                                                    <option value="1" rel="icon-temperature">1</option>
+                                                    <option value="2">hello</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                </select>
+                                        </div>
+                                        <div class="input-wrapper">
+                                            <label for="file-dimensions"><span>File Dimensions</span></label>
+                                             <input type="text" placeholder="Enter the item  dimentionss here ..." id="file-dimensions">
+                                         </div>
+                                         <div class="input-wrapper">
+                                            <label for="item-tags"><span>Item Tags</span></label>
+                                             <input type="text" placeholder="Enter Tag Here" id="item-tags">
+                                         </div>
+                                </div>
+                            </div>
+                            <div class="upload-product-form-part-second">
+                                <h2>Set Your Price (US$)</h2>
+                                <div class="part-inner">
+                                    <div class="input-wrapper">
+                                        <label for="regular-license"><span>Regular License</span></label>
+                                           <input type="text" placeholder="$00.00" id="regular-license">
+                                       </div>
+                                        <div class="input-wrapper">
+                                       <label for="extended-license"><span>Extended License</span></label>
+                                       <input type="text" placeholder="$00.00" id="extended-license">
+                                       </div>
+                                       <input type="submit" value="Submit">
+                                </div>
+                            </div>
+                           
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h3>About Company</h3>
+                            <p>Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus. </p>
+                            <ul class="contact-list">
+                                <li><i class="icon-location2"></i><address>PO Box 16122 Collins Street West Victoria 8007 Australia</address></li>
+                                <li><i class="icon-phone"></i><a href="tel:+61383766284">+61 3 8376 6284</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>Join Our Community </h3>
+                            <ul class="list-footer-link">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Forums</a></li>
+                                <li><a href="#">Become an Author</a></li>
+                                <li><a href="#">Community Meetups</a></li>
+                                <li><a href="#">Become an Affiliate</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>Need Help?</h3>
+                            <ul class="list-footer-link">
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Foxtar Market Terms</a></li>
+                                <li><a href="#">Author Terms</a></li>
+                                <li><a href="#">Foxtar Licenses</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>About Company</h3>
+                            <ul class="social-link-list">
+                                <li><a href="#" class="icon-facebook2"></a></li>
+                                <li><a href="#" class="icon-twitter-square"></a></li>
+                                <li><a href="#" class="icon-youtube-square"></a></li>
+                                <li><a href="#" class="icon-pinterest-square"></a></li>
+                                <li><a href="#" class="icon-linkedin"></a></li>
+                            </ul>
+                            <strong class="newsletter-form-title">Newsletter Sign Up!</strong>
+                            <form action="#" class="footer-newsletter-form">
+                                <input type="email" placeholder="E-mail Address">
+                                <div class="footer-newsletter-form__submit">
+                                    <input type="submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom__content">
+                    &copy; 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/main.min.js"></script>
+  </body>
+
+</html>

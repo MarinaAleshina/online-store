@@ -1,0 +1,68 @@
+.upload-product {
+    background-color: #f4f6f5;
+}
+
+.upload-product-wrapper{
+    background-color: $white;
+    border-top: 1px solid #f0f0f0;
+}
+
+.upload-product-form {
+    label, .fake-label {
+        span {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+
+            &:after {
+                position: absolute;
+                top: -10px;
+                right: -15px;
+                font-family: 'icomoon';
+                content: "\e913";
+                color: $green;
+                font-size: 10px;
+            }
+        } 
+       
+    }
+    
+}
+
+.input-wrapper {
+    display: flex;
+    margin: 0 0 20px;
+
+    label, .fake-label{
+        width: calc(20% - 10px);
+        margin: 0 10px 0 0;
+    }
+
+    .fake-input {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.upload-product-wrapper h2 {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15px 30px;
+    border: 1px solid #f0f0f0;
+    border-top: 0
+}
+
+.part-inner {
+    padding: 50px 40px;
+}
+
+.product-description {
+    textarea{
+        height: 148px;
+    }
+}
+
+.file-choosen {
+    font-size: 12px;
+    color: #707070;
+}
